@@ -57,12 +57,31 @@ header {
   justify-content: space-between;
 }
 
-.left-article .right-article{
+.left-article {
+  width: 49%;
+}
+
+.right-article {
   width: 49%;
 }
 
 img {
   width: 100%;
+  height: 15%;
+}
+
+.right-aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.signIn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 footer {
