@@ -34,17 +34,23 @@ header {
 .mainContent {
   display: flex;
   margin-top: 25px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .left-aside {
   display: flex;
   flex-direction: column;
   width: 15%;
+  margin-left: 3%;
 }
 
 .about {
   background-color: lightgray;
+  padding: 15px;
+}
+
+.archives {
+  padding: 15px;
 }
 
 .archives a {
@@ -65,9 +71,23 @@ header {
   width: 49%;
 }
 
+.person {
+  border: 1px solid gray;
+  box-shadow: 0px 3px 2px #888888;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.person a {
+  text-decoration: none
+}
+
 img {
   width: 100%;
-  height: 15%;
+}
+
+figcaption {
+  padding: 20px;
 }
 
 .right-aside {
