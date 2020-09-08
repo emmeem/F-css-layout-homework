@@ -31,6 +31,26 @@ header {
   padding: 20px 0;
 }
 
+.mainContent {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-around;
+}
+
+.left-aside {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+
+.about {
+  background-color: lightgray;
+}
+
+.archives a {
+  color: purple;
+}
+
 footer {
   background-color: lightgray;
   display: flex;
@@ -38,6 +58,10 @@ footer {
   justify-content: center;
   text-align: center;
   height: 80px;
+}
+
+footer a{
+  color: purple;
 }
 
 
