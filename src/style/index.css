@@ -102,6 +102,26 @@ figcaption {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: lightgrey;
+  padding: 15px;
+}
+
+.check {
+  padding: 15px
+}
+
+.email {
+  height: 30px;
+}
+
+.pwd {
+  height: 30px;
+}
+
+.signInBtn {
+  background-color: #0066FF;
+  border: none;
+  padding: 10px 50px;
 }
 
 footer {
