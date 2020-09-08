@@ -51,6 +51,20 @@ header {
   color: purple;
 }
 
+.mid-article {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-article .right-article{
+  width: 49%;
+}
+
+img {
+  width: 100%;
+}
+
 footer {
   background-color: lightgray;
   display: flex;
