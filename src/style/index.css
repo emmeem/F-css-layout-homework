@@ -34,7 +34,7 @@ header {
 .mainContent {
   display: flex;
   margin-top: 25px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .left-aside {
@@ -95,6 +95,7 @@ figcaption {
   align-items: center;
   justify-content: center;
   width: 20%;
+  margin-left: -4%;
 }
 
 .signIn {
